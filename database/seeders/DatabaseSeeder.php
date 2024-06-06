@@ -2,9 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Models\Feedback;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-//use database\seeds\UsersAndNotesSeeder;
-//use database\seeds\MenusTableSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -15,24 +15,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        //$this->call(MenusTableSeeder::class);
-        //$this->call(UsersAndNotesSeeder::class);
-        /*
-        $this->call('UsersAndNotesSeeder');
-        $this->call('MenusTableSeeder');
-        $this->call('FolderTableSeeder');
-        $this->call('ExampleSeeder');
-        $this->call('BREADSeeder');
-        $this->call('EmailSeeder');
-        */
-
-        $this->call([
-            UsersAndNotesSeeder::class,
-            MenusTableSeeder::class,
-            FolderTableSeeder::class,
-            ExampleSeeder::class,
-            BREADSeeder::class,
-            EmailSeeder::class,
-        ]);
+        $this->call(DatabaseBarangSeeder::class);
+        $this->call(DatabaseVendorSeeder::class);
+        $this->call(DatabaseCustomerSeeder::class);
+        $this->call(DatabasePenjualanSeeder::class);
+        $this->call(DatabasePembelianSeeder::class);
+        $this->call(DatabaseuserSeeder::class);
     }
 }

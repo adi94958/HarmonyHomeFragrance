@@ -1,359 +1,458 @@
-# CoreUI Free Laravel Bootstrap Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=CoreUI%20-%20Free%20Bootstrap%204%20Admin%20Template%20&url=https://coreui.io&hashtags=bootstrap,admin,template,dashboard,panel,free,angular,react,vue)
+# [Soft UI Dashboard Laravel](https://soft-ui-dashboard-laravel.creative-tim.com/login)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![version](https://img.shields.io/badge/version-1.0.0-blue.svg) 
+![license](https://img.shields.io/badge/license-MIT-blue.svg)
+[![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/soft-ui-dashboard-laravel.svg)](https://github.com/creativetimofficial/soft-ui-dashboard-laravel/issues?q=is%3Aopen+is%3Aissue) 
+[![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/soft-ui-dashboard-laravel.svg)](https://github.com/creativetimofficial/soft-ui-dashboard-laravel/issues?q=is%3Aissue+is%3Aclosed)
 
-[![Bootstrap Admin Template](https://coreui.io/images/github/vue-free-template-3.gif)](https://coreui.io/laravel/)
 
-Curious why I decided to create CoreUI? Please read this article: [Jack of all trades, master of none. Why Bootstrap Admin Templates suck.](https://medium.com/@lukaszholeczek/jack-of-all-trades-master-of-none-5ea53ef8a1f#.7eqx1bcd8)
+*Frontend version*: Soft UI Dashboard v1.0.0. More info at https://www.creative-tim.com/product/soft-ui-dashboard
 
-CoreUI offers 6 versions: [Bootstrap](https://github.com/coreui/coreui-free-bootstrap-admin-template), [Angular](https://github.com/coreui/coreui-free-angular-admin-template), [Laravel](https://github.com/coreui/coreui-free-laravel-admin-template), [React.js](https://github.com/coreui/coreui-free-react-admin-template), [Vue.js](https://github.com/coreui/coreui-free-vue-admin-template), and [Vue.js + Laravel](https://github.com/coreui/coreui-free-vue-laravel-admin-template).
+[<img src="https://s3.amazonaws.com/creativetim_bucket/products/602/original/soft-ui-dashboard-laravel.jpg" width="100%" />](https://soft-ui-dashboard-laravel.creative-tim.com/dashboard)
+  
 
-CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of redundant components, so the app is light enough to offer ultimate user experience. This means mobile devices also, where the navigation is just as easy and intuitive as on a desktop or laptop. The CoreUI Layout API lets you customize your project for almost any device – be it Mobile, Web or WebApp – CoreUI covers them all!
+## Free Frontend Web App for Laravel
+What happens when you combine Soft UI, one of the hottest design trends right now, and Laravel?  We've partnered with [UPDIVISION](https://updivision.com/) to create the ultimate design & development toolbox. 
+
+Soft UI Dashboard Laravel comes with dozens of handcrafted UI elements tailored for Bootstrap 5 and an out of the box Laravel backend.
+
+## What am I getting?
+You're getting a multi-purpose tool for building complex apps.
+
+Soft UI Dashboard PRO Laravel at a glance:
+* 70 handcrafted UI components. From buttons and inputs to navbars and cards, everything is designed to create visually cohesive interfaces.  
+* 7 example pages to get you started
+* fully-functional authentication system, register and user profile editing features built with Laravel
+* Documentation for each component so you can get started fast
+
+## Free for personal and commercial projects
+Whether you're working on a side project or delivering to a client, we've got you covered. Soft UI Dashboard Laravel is released under MIT license, so you can use it both for personal and commercial projects for free. All you need to do is start coding. 
+
+
+## Detailed documentation and example pages
+We also included detailed documentation for every component and feature so you can follow along. The pre-built example pages give you a quick glimpse of what Soft UI Dashboard Laravel has to offer so you can get started in no time. 
+
+If you want to get more features, go PRO with [Soft UI Dashboard PRO Laravel](https://www.creative-tim.com/product/soft-ui-dashboard-pro-laravel).
 
 ## Table of Contents
 
-* [Versions](#versions)
-* [CoreUI Pro](#coreui-pro)
-* [Admin Templates built on top of CoreUI Pro](#admin-templates-built-on-top-of-coreui-pro)
+* [Prerequisites](#prerequisites)
 * [Installation](#installation)
-* [Usage](#Usage)
-* [Features](#Features)
-* [Creators](#creators)
-* [Community](#community)
-* [Community Projects](#community-projects)
-* [License](#license)
-* [Support CoreUI Development](#support-coreui-development)
+* [Usage](#usage)
+* [Versions](#versions)
+* [Demo](#demo)
+* [Documentation](#documentation)
+* [Login](#login)
+* [Register](#register)
+* [Forgot Password](#forgot-password)
+* [Reset Password](#reset-password)
+* [User Profile](#user-profile)
+* [Dashboard](#dashboard)
+* [File Structure](#file-structure)
+* [Browser Support](#browser-support)
+* [Reporting Issues](#reporting-issues)
+* [Licensing](#licensing)
+* [Useful Links](#useful-links)
+* [Social Media](#social-media)
+* [Credits](#credits)
 
-## Versions
+## Prerequisites
 
-CoreUI is built on top of Bootstrap 4 and supports popular frameworks.
+If you don't already have an Apache local environment with PHP and MySQL, use one of the following links:
 
-* [CoreUI Free Bootstrap Admin Template](https://github.com/coreui/coreui-free-bootstrap-admin-template)
-* [CoreUI Free Angular Admin Template](https://github.com/coreui/coreui-free-angular-admin-template)
-* [CoreUI Free Laravel Admin Template](https://github.com/coreui/coreui-free-laravel-admin-template)
-* [CoreUI Free React.js Admin Template](https://github.com/coreui/coreui-free-react-admin-template)
-* [CoreUI Free Vue.js Admin Template](https://github.com/coreui/coreui-free-vue-admin-template)
-* [CoreUI Free Vue.js + Laravel Admin Template](https://github.com/coreui/coreui-free-vue-laravel-admin-template)
+-   Windows: https://updivision.com/blog/post/beginner-s-guide-to-setting-up-your-local-development-environment-on-windows
+-   Linux & Mac: https://updivision.com/blog/post/guide-what-is-lamp-and-how-to-install-it-on-ubuntu-and-macos
 
-## CoreUI Pro
+Also, you will need to install Composer: https://getcomposer.org/doc/00-intro.md  
+And Laravel: https://laravel.com/docs/10.x
 
-* 💪  [CoreUI Pro Bootstrap Admin Template](https://coreui.io/pro/)
-* 💪  [CoreUI Pro Angular Admin Template](https://coreui.io/pro/angular)
-* 💪  [CoreUI Pro Laravel Admin Template](https://coreui.io/pro/laravel)
-* 💪  [CoreUI Pro React Admin Template](https://coreui.io/pro/react)
-* 💪  [CoreUI Pro Vue Admin Template](https://coreui.io/pro/vue)
-* 💪  [CoreUI Pro Vue + Laravel Admin Template](https://coreui.io/pro/vue-laravel)
-
-## Admin Templates built on top of CoreUI Pro
-
-| Default Theme | Legacy Theme | Dark Layout |
-| --- | --- | --- |
-| [![CoreUI Pro Bootstrap Admin Template](https://coreui.io/images/mockups/mockup_3_1_default.png)](https://coreui.io/pro/laravel/) | [![CoreUI Pro Bootstrap Admin Template](https://coreui.io/images/mockups/mockup_3_1_legacy.png)](https://coreui.io/pro/laravel/)| [![CoreUI Pro Bootstrap Admin Template](https://coreui.io/images/mockups/mockup_3_1_dark.png)](https://coreui.io/pro/laravel/)
 
 ## Installation
 
-``` bash
-# clone the repo
-$ git clone https://github.com/coreui/coreui-free-laravel-admin-template.git my-project
-
-# go into app's directory
-$ cd my-project
-
-# install app's dependencies
-$ composer install
-
-# install app's dependencies
-$ npm install
-
-```
-
-### If you choice to use SQLite
-
-``` bash
-
-# create database
-$ touch database/database.sqlite
-```
-Copy file ".env.example", and change its name to ".env".
-Then in file ".env" replace this database configuration:
-* DB_CONNECTION=mysql
-* DB_HOST=127.0.0.1
-* DB_PORT=3306
-* DB_DATABASE=laravel
-* DB_USERNAME=root
-* DB_PASSWORD=
-
-To this:
-
-* DB_CONNECTION=sqlite
-* DB_DATABASE=/path_to_your_project/database/database.sqlite
-
-### If you choice to use PostgreSQL
-
-1. Install PostgreSQL
-
-2. Create user
-``` bash
-$ sudo -u postgres createuser --interactive
-enter name of role to add: laravel
-shall the new role be a superuser (y/n) n
-shall the new role be allowed to create database (y/n) n
-shall the new role be allowed to create more new roles (y/n) n
-```
-3. Set user password
-``` bash
-$ sudo -u postgres psql
-postgres= ALTER USER laravel WITH ENCRYPTED PASSWORD 'password';
-postgres= \q
-```
-4. Create database
-``` bash
-$ sudo -u postgres createdb laravel
-```
-5. Copy file ".env.example", and change its name to ".env".
-Then in file ".env" replace this database configuration:
-
-* DB_CONNECTION=mysql
-* DB_HOST=127.0.0.1
-* DB_PORT=3306
-* DB_DATABASE=laravel
-* DB_USERNAME=root
-* DB_PASSWORD=
-
-To this:
-
-* DB_CONNECTION=pgsql
-* DB_HOST=127.0.0.1
-* DB_PORT=5432
-* DB_DATABASE=laravel
-* DB_USERNAME=laravel
-* DB_PASSWORD=password
-
-### If you choice to use MySQL
-
-Copy file ".env.example", and change its name to ".env".
-Then in file ".env" complete this database configuration:
-* DB_CONNECTION=mysql
-* DB_HOST=127.0.0.1
-* DB_PORT=3306
-* DB_DATABASE=laravel
-* DB_USERNAME=root
-* DB_PASSWORD=
-
-### Set APP_URL
-
-> If your project url looks like: example.com/sub-folder 
-Then go to `my-project/.env`
-And modify this line:
-
-* APP_URL = 
-
-To make it look like this:
-
-* APP_URL = http://example.com/sub-folder
-
-
-### Next step
-
-``` bash
-# in your app directory
-# generate laravel APP_KEY
-$ php artisan key:generate
-
-# run database migration and seed
-$ php artisan migrate:refresh --seed
-
-# generate mixing
-$ npm run dev
-
-# and repeat generate mixing
-$ npm run dev
-```
+1. Unzip the downloaded archive
+2. Copy and paste **soft-ui-dashboard-laravel-master** folder in your **projects** folder. Rename the folder to your project's name
+3. In your terminal run `composer install`
+4. Copy `.env.example` to `.env` and updated the configurations (mainly the database configuration)
+5. In your terminal run `php artisan key:generate`
+6. Run `php artisan migrate --seed` to create the database tables and seed the roles and users tables
+7. Run `php artisan storage:link` to create the storage symlink (if you are using **Vagrant** with **Homestead** for development, remember to ssh into your virtual machine and run the command from there).
 
 ## Usage
+Register a user or login with default user **admin@softui.com** and password **secret** from your database and start testing (make sure to run the migrations and seeders for these credentials to be available).
 
-``` bash
-# start local server
-$ php artisan serve
+Besides the dashboard, the auth pages, the billing and table pages, there is also has an edit profile page. All the necessary files are installed out of the box and all the needed routes are added to `routes/web.php`. Keep in mind that all of the features can be viewed once you login using the credentials provided or by registering your own user. 
 
-# test
-$ php vendor/bin/phpunit
+## Versions
+[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/html-logo.jpg?raw=true" width="60" height="60" />](https://demos.creative-tim.com/argon-dashboard-pro/pages/dashboards/dashboard.html?ref=sudl-readme)
+[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/laravel_logo.png?raw=true" width="60" height="60" />](https://argon-dashboard-pro-laravel.creative-tim.com/?ref=sudl-readme)
+
+| HTML | Laravel |
+| --- | --- |
+| [![HTML](https://s3.amazonaws.com/creativetim_bucket/products/450/thumb/opt_sd_free_thumbnail.jpg)](https://www.creative-tim.com/product/soft-ui-dashboard) | [![Laravel](https://s3.amazonaws.com/creativetim_bucket/products/602/thumb/soft-ui-dashboard-laravel.jpg?1647531884)](https://www.creative-tim.com/product/soft-ui-dashboard-laravel)  | 
+
+## Demo
+| Register | Login | Dashboard |
+| --- | --- | ---  |
+| [<img src="https://github.com/creativetimofficial/public-assets/blob/master/soft-ui-design-system-laravel/Register.png" width="322" />](https://soft-ui-dashboard-laravel.creative-tim.com/sign-up) | [<img src="https://github.com/creativetimofficial/public-assets/blob/master/soft-ui-design-system-laravel/Login.png?raw=true" width="322" />](https://soft-ui-dashboard-laravel.creative-tim.com/login)  | [<img src="https://github.com/creativetimofficial/public-assets/blob/master/soft-ui-design-system-laravel/Dashboard.png?raw=true" width="322" />](https://soft-ui-dashboard-laravel.creative-tim.com/dashboard)
+
+| Forgot Password Page | Reset Password Page | Profile Page  |
+| --- | --- | ---  |
+| [<img src="https://github.com/creativetimofficial/public-assets/blob/master/soft-ui-design-system-laravel/Forgot-password.png" width="320" />](https://soft-ui-dashboard-laravel.creative-tim.com/login/forgot-password)  | [<img src="https://github.com/creativetimofficial/public-assets/blob/master/soft-ui-design-system-laravel/Login.png" width="312" />](https://soft-ui-dashboard-laravel.creative-tim.com/) | [<img src="https://github.com/creativetimofficial/public-assets/blob/master/soft-ui-design-system-laravel/Profile.png" width="330" />](https://soft-ui-dashboard-laravel.creative-tim.com/laravel-user-profile)
+[View More](https://soft-ui-dashboard-laravel.creative-tim.com/dashboard)
+
+## Documentation
+The documentation for the Soft UI Dashboard Laravel is hosted at our [website](https://soft-ui-dashboard-laravel.creative-tim.com/documentation/getting-started/overview.html).
+
+### Login
+If you are not logged in you can only access this page or the Sign Up page. The default url takes you to the login page where you use the default credentials **admin@softui.com** with the password **secret**. Logging in is possible only with already existing credentials. For this to work you should have run the migrations.
+
+The `App\Http\Controllers\SessionController` handles the logging in of an existing user.
+
+```
+       public function store()
+    {
+        $attributes = request()->validate([
+            'email'=>'required|email',
+            'password'=>'required' 
+        ]);
+
+        if(Auth::attempt($attributes))
+        {
+            session()->regenerate();
+            return redirect('dashboard');
+        }
+        else{
+
+            return back();
+        }
+    }
 ```
 
-Open your browser with address: [localhost:8000](localhost:8000)  
-Click "Login" on sidebar menu and log in with credentials:
+### Register
+You can register as a user by filling in the name, email, role and password for your account. For your role you can choose between the Admin, Creator and Member. It is important to know that an admin user has access to all the pages and actions, can delete, add and edit another users, other roles, items, tags or categories; a creator user has acces to category, tag and item managemen, but can not add, edit or delete other users; a member user has access to the item management but can not take any action. You can do this by accessing the sign up page from the "**Sign Up**" button in the top navbar or by clicking the "**Sign Up**" button from the bottom of the log in form. Another simple way is adding **/register** in the url.
 
-* E-mail: _admin@admin.com_
-* Password: _password_
+The `App\Http\Controllers\RegisterController` handles the registration of a new user.
 
-This user has roles: _user_ and _admin_
-
---- 
-
-### How to add a link to the sidebar:
-
-> Instructions for CoreUI Free Laravel admin template only. _Pro and Vue.js versions have separate instructions._
-
-#### To add a __link__ to the sidebar - modify seeds file:  
-`my-project/database/seeds/MenusTableSeeder.php`
-
-In `run()` function - add `insertLink()`:
-```php
-$id = $this->insertLink( $rolesString, $visibleName, $href, $iconString);
 ```
-* `$rolesString` - a string with list of user roles this menu element will be available, ex. `"guest,user,admin"`
-* `$visibleName` - a string caption visible in sidebar
-* `$href` - a href, ex. `/homepage` or `http://example.com`
-* `$iconString` - a string containing valid CoreUI Icon name (kebab-case), ex. `cil-speedometer` or `cil-pencil`
+    public function store()
+    {
+        $attributes = request()->validate([
+            'name' => ['required', 'max:50'],
+            'email' => ['required', 'email', 'max:50', Rule::unique('users', 'email')],
+            'password' => ['required', 'min:5', 'max:20'],
+            'agreement' => ['accepted']
+        ]);
+        $attributes['password'] = bcrypt($attributes['password'] );
 
-To add a __title__ to the sidebar - use function `insertTitle()`:
-```php
-$id = $this->insertTitle( $rolesString, $title );
-```
-* `$rolesString` - a string with list of user roles this menu element will be available, ex. `"guest,user,admin"`
-* `$title` - a string caption visible in sidebar
-
-To add a __dropdown__ menu to the sidebar - use function `beginDropdown()`:
-```php
-$id = $this->beginDropdown( $rolesString, $visibleName, $iconString);
-```
-* `$rolesString` - a string with list of user roles this menu element will be available, ex. `"guest,user,admin"`
-* `$visibleName` - a string caption visible in sidebar
-* `$iconString` - a string containing valid CoreUI icon name (kebab-case). For example: `cil-speedometer` or `cil-pencil`
-
-To end dropdown section - use function `endDropdown()`. 
-
-To add __link__ to __dropdown__ call function `insertLink()` between function calls `beginDropdown()` and `endDropdown()`. 
-Example:
-```php
-$id = $this->beginDropdown('guest,user,admin', 'Some dropdown', 'cil-puzzle');
-$id = $this->insertLink('guest,user,admin', 'Dropdown name', 'http://example.com');
-$this->endDropdown();
+        session()->flash('success', 'Your account has been created.');
+        $user = User::create($attributes);
+        Auth::login($user); 
+        return redirect('/dashboard');
+    }
 ```
 
-__IMPORTANT__ - At the end of `run()` function, call `joinAllByTransaction()` function:
-```php
-$this->joinAllByTransaction();
+### Forgot Password
+If a user forgets the account's password it is possible to reset the password. For this the user should click on the "**here**" under the login form or add **/login/forgot-password** in the url.
+
+The `App\Http\Controllers\ResetController` takes care of sending an email to the user where he can reset the password afterwards.
+
+```
+    public function sendEmail(Request $request)
+    {
+        $request->validate(['email' => 'required|email']);
+
+        $status = Password::sendResetLink(
+            $request->only('email')
+        );
+
+        return $status === Password::RESET_LINK_SENT
+                    ? back()->with(['status' => __($status)])
+                    : back()->withErrors(['email' => __($status)]);
+    }
 ```
 
-Once done with seeds file edit, __run__:
-``` bash 
-$ php artisan migrate:refresh --seed
-# This command also rollbacks database and migrates it again.
+### Reset Password
+The user who forgot the password gets an email on the account's email address. The user can access the reset password page by clicking the button found in the email. The link for resetting the password is available for 12 hours. The user must add the new password and confirm the password for his password to be updated. The user is redirected to the login page.
+
+The `App\Http\Controllers\ChangePasswordController` helps the user reset the password.
+
 ```
-
-## Features
-
-### Table of contents:
-* [Notes](#notes)
-* [Users](#users)
-* [Management of menus](#menu-management)
-* [Manage menu items](#Manage-menu-items)
-* [Role management](#Role-management)
-* [Management of the media](#Manage-media)
-* [BREAD](#BREAD-system)
-* [Email Templates](#E-mail-Templates)
-
-#### Notes
-It is an example of data presentation in a pagination table, and CRUD functionality.
-
-#### Users
-It is a simple example of how to manage registered users.
-
-#### Menu management 
-It is a system that allows you to create a new menu and edit existing menus. To place a new menu named "new" in any view use this code:
-```php
-        <?php
-            use the App\MenuBuilder\FreelyPositionedMenus;
-            if(isset($appMenus['new'])){
-                FreelyPositionedMenus::render( $appMenus['new'] , '', 'your-css-class-of-ul-element');
+    public function changePassword(Request $request)
+    {
+        
+        $request->validate([
+            'token' => 'required',
+            'email' => 'required|email',
+            'password' => 'required|min:8|confirmed',
+        ]);
+    
+        $status = Password::reset(
+            $request->only('email', 'password', 'password_confirmation', 'token'),
+            function ($user, $password) {
+                $user->forceFill([
+                    'password' => Hash::make($password)
+                ])->setRememberToken(Str::random(60));
+    
+                $user->save();
+    
+                event(new PasswordReset($user));
             }
-        ?>  
+        );
+    
+        return $status === Password::PASSWORD_RESET
+                    ? redirect('/login')->with('status', __($status))
+                    : back()->withErrors(['email' => [__($status)]]);
+    }
 ```
-#### Manage menu items
-Allows you to add, edit and delete menu items.
-To add a new menu item to the menu you must:
-* specify to which menu you are adding the item,
-* specify the roles of users for whom the item will be visible
-* name the item
-* type ( to choice: link, title and dropdown)
-* Href, the address to which the item is to refer,
-* Parent (To nest the item inside dropdown)
-* CORUI icons
 
-#### Role management
-Allows you to create, edit, delete and reorder user roles.
-When a user has more than one role, the highest hierarchical role is used to create a menu for him.
+### My Profile
+The profile can be accessed by a logged in user by clicking "**User Profile**" from the sidebar or adding **/user-profile** in the url. The user can add information like birthday, gender, phone number, location, language  or skills.
 
-#### Manage media
-It allows to:
-* Create virtual media folders.
-* Send media to applications.
-* Move media between folders,
-* Cut images,
+The `App\Http\Controllers\InfoUserController` handles the user's profile information.
 
-#### BREAD system
-BREAD stands for: browse, read, edit, add, delete.
-Our BREAD system allows you to easily and quickly generate for any table, from the database, a simple BREAD.
-To create a new BREAD just enter a table name from the database.  Then enter a name for the form. Enter the number of rows in the browse table. Choose if you want the browse table to contain buttons: "show", "edit", "add", "delete".
-Assign roles for users who will be able to use the ready BREAD.
-Then complete each column of the table separately:
-* the column name visible to the user,
-* the input type for the column,
-The last step is to select the appropriate checkboxes:
-* browse (allows to display the column in the data table),
-* read (allows you to display the column in the show view,)
-* edit (enables column editing)
-* add (allows you to complete the column data when adding a record. Required if the column is not nullable).
-It is also possible to handle relationships with another table.
-If the column is a foreign key, it should be specified: in the field "Optional relation table name" - table name to which the foreign key refers, in the "Optional column name in relation table - to print" field - the name of the column that is in the relation table to be displayed. Finally, select one of the two "field types" that relate to the relation: 'relation select' or 'relation radio'.
+```
+    public function store(Request $request)
+    {
 
-#### E-mail Templates
-It is an example of managing e-mail templates. Allows you to create, edit and delete templates. It also allows you to send an E-mail to a selected address.
+        $attributes = request()->validate([
+            'name' => ['required', 'max:50'],
+            'email' => ['required', 'email', 'max:50', Rule::unique('users')->ignore(Auth::user()->id)],
+            'phone'     => ['max:50'],
+            'location' => ['max:70'],
+            'about_me'    => ['max:150'],
+            'email' => ['required', 'email', 'max:50', Rule::unique('users')->ignore(Auth::user()->id)],
+        ]);
+        
+        User::where('id',Auth::user()->id)
+        ->update([
+            'name'    => $attributes['name'],
+            'email' => $attribute['email'],
+            'phone'     => $attributes['phone'],
+            'location' => $attributes['location'],
+            'about_me'    => $attributes["about_me"],
+        ]);
 
+        return redirect('/user-profile');
+    }
+```
 
-## Creators
+### Dashboard
+You can access the dashboard either by using the "**Dashboard**" link in the left sidebar or by adding **/dashboard** in the url after logging in. 
 
-**Łukasz Holeczek**
+## File Structure
+```
+app
+├── Console
+│   └── Kernel.php
+├── Exceptions
+│   └── Handler.php
+├── Http
+│   ├── Controllers
+│   │   └── ChangePasswordController.php
+│   │   └──Controller.php
+│   │   └──HomeController.php
+│   │   └──InfoUserController.php
+│   │   └──RegisterController.php
+│   │   └──ResetController.php
+│   │   └──SessionController.php
+│   ├── Kernel.php
+│   └── Middleware
+│       ├── Authenticate.php
+│       ├── EncryptCookies.php
+│       ├── PreventRequestsDuringMaintenance.php
+│       ├── RedirectIfAuthenticated.php
+│       ├── TrimStrings.php
+│       ├── TrustHosts.php
+│       ├── TrustProxies.php
+│       └── VerifyCsrfToken.php
+├── Models
+│   └── User.php
+├── Policies
+│   └── UsersPolicy.php
+├── Providers
+│   ├── AppServiceProvider.php
+│   ├── AuthServiceProvider.php
+│   ├── BroadcastServiceProvider.php
+│   ├── EventServiceProvider.php
+│   └── RouteServiceProvider.php
+config
+├── app.php
+├── auth.php
+├── broadcasting.php
+├── cache.php
+├── cors.php
+├── database.php
+├── filesystems.php
+├── hashing.php
+├── logging.php
+├── mail.php
+├── queue.php
+├── sanctum.php
+├── services.php
+├── session.php
+├── view.php
+|       
+database
+|   ├──factories
+|   |       UserFactory.php
+|   |       
+|   ├──migrations
+|   |       2014_10_12_000000_create_users_table.php
+|   |       2014_10_12_100000_create_password_resets_table.php
+|   |       2019_08_19_000000_create_failed_jobs_table.php
+|   |       2019_12_14_000001_create_personal_access_tokens_table.php
+|   |       
+|   └──seeds
+|           DatabaseSeeder.php
+|           UserSeeder.php
+|           
++---public
+|   |   .htaccess
+|   |   favicon.ico
+|   |   index.php
+|   |   
+|   +---css
+|   |       app.css
+|   |       soft-ui-dashboard.css
+|   +---js
+|   |       app.js
+|   |       
+|   +---assets
+|   |       demo.css
+|   |       docs-soft.css
+|   |       docs.js
+|   |
+|   |   +---css
+|   |   |   |   nucleo-icons.css
+|   |   |   |   nucleo-svg.css
+|   |   |   |   soft-ui-dashboard.css
+|   |   |   |   soft-ui-dashboard.css.map
+|   |   |   └── soft-ui-dashboard.min.css
+|   |   |                                 
+|   +---+---js
+|           |   soft-ui--dashboard.js
+|           |   soft-ui--dashboard.js.map
+|           |   soft-ui--dashboard.min.js
+|           |   
+|           +---core
+|                   bootstrap.bundle.min.js
+|                   bootstrap.min.js
+|                   popper.min.js
+|                    
++---resources
+|   +---lang
+|   |   \---en
+|   |           auth.php
+|   |           pagination.php
+|   |           passwords.php
+|   |           validation.php
+|   |           
+|   \---views
+|       |                 
+|       +---components
+|       |       fixed-plugins.blade.php
+|       |      
+|       +---laravel-example
+|       |        user-management.blade.php
+|       |        user-profile.blade.php
+|       |      
+|       +---layouts
+|       |   |   
+|       |   +---footers
+|       |   |   |
+|       |   |   +--auth
+|       |   |   |     footer.blade.php
+|       |   |   +--guest
+|       |   |         footer.blade.php
+|       |   |
+|       |   +---navbars
+|       |       |  app.blade.php
+|       |       |
+|       |       +--auth
+|       |       |     nav-rtl.blade.php
+|       |       |     nav.blade.php
+|       |       |     sidebar-rtl.blade.php
+|       |       |     sidebar.blade.php
+|       |       +--guest
+|       |       |     nav.blade.php
+|       |       |     
+|       |       +--user_type
+|       |           auth.blade.php
+|       |           guest.blade.php
+|       |           
+|       +---session
+|       |   |   login-session.blade.php
+|       |   |   register.blade.php
+|       |   |   
+|       |   +---reset-password
+|       |           resetPassword.blade.php
+|       |           sendEmail.blade.php
+|       |       
+|       billing.blade.php
+|       dashboard.blade.php
+|       profile.blade.php
+|       rtl.blade.php
+|       static-sign-in.blade.php
+|       static-sign-up.blade.php
+|       tables.blade.php
+|       virtual-reality.blade.php
+|                      
++---routes
+|       api.php
+|       channels.php
+|       console.php
+|       web.php
+```
 
-* <https://twitter.com/lukaszholeczek>
-* <https://github.com/mrholek>
+## Browser Support
+At present, we officially aim to support the last two versions of the following browsers:
 
-**Andrzej Kopański**
+<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
 
-* <https://github.com/xidedix>
+## Reporting Issues
+We use GitHub Issues as the official bug tracker for the Soft UI Dashboard. Here are some advices for our users that want to report an issue:
 
-**Marcin Michałek**
+1. Make sure that you are using the latest version of the Soft UI Dashboard. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/soft-ui-dashboard-pro-laravel?ref=readme-sudpl).
+2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
+3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
-* <https://github.com/rakieta2015>
+## Licensing
+- Copyright 2021 [Creative Tim](https://www.creative-tim.com?ref=readme-sudpl)
+- Creative Tim [license](https://www.creative-tim.com/license?ref=readme-sudpl)
 
+## Useful Links
+- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
+- [Affiliate Program](https://www.creative-tim.com/affiliates/new) (earn money)
+- [Blog Creative Tim](http://blog.creative-tim.com/)
+- [Free Products](https://www.creative-tim.com/bootstrap-themes/free) from Creative Tim
+- [Premium Products](https://www.creative-tim.com/bootstrap-themes/premium?ref=sudl-readme) from Creative Tim
+- [React Products](https://www.creative-tim.com/bootstrap-themes/react-themes?ref=sudl-readme) from Creative Tim
+- [VueJS Products](https://www.creative-tim.com/bootstrap-themes/vuejs-themes?ref=sudl-readme) from Creative Tim
+- [More products](https://www.creative-tim.com/bootstrap-themes?ref=sudl-readme) from Creative Tim
+- Check our Bundles [here](https://www.creative-tim.com/bundles??ref=sudl-readme)
 
-## Community
+### Social Media
 
-Get updates on CoreUI's development and chat with the project maintainers and community members.
+### Creative Tim
+Twitter: <https://twitter.com/CreativeTim?ref=sudl-readme>
 
-- Follow [@core_ui on Twitter](https://twitter.com/core_ui).
-- Read and subscribe to [CoreUI Blog](https://coreui.io/blog/).
+Facebook: <https://www.facebook.com/CreativeTim?ref=sudl-readme>
 
+Dribbble: <https://dribbble.com/creativetim?ref=sudl-readme>
 
-## CoreUI Icons (500+ Free icons) - Premium designed free icon set with marks in SVG, Webfont and raster formats.
+Instagram: <https://www.instagram.com/CreativeTimOfficial?ref=sudl-readme>
 
-CoreUI Icons are beautifully crafted symbols for common actions and items. You can use them in your digital products for web or mobile app. Ready-to-use fonts and stylesheets that work with your favorite frameworks.
+### Updivision:
 
-![CoreUI Free Icons](https://coreui.io/images/icons_free_bg_set.png)
+Twitter: <https://twitter.com/updivision?ref=sudl-readme>
 
+Facebook: <https://www.facebook.com/updivision?ref=sudl-readme>
 
-### CoreUI Icons Preview & Docs
+Linkedin: <https://www.linkedin.com/company/updivision?ref=sudl-readme>
 
-[https://coreui.io/icons/](https://coreui.io/icons/)
+Updivision Blog: <https://updivision.com/blog/?ref=sudl-readme>
 
-## Copyright and license
+## Credits
 
-copyright 2020 creativeLabs Łukasz Holeczek. Code released under [the MIT license](https://github.com/coreui/coreui-free-laravel-admin-template/blob/master/LICENSE).
-There is only one limitation you can't can’t re-distribute the CoreUI as stock. You can’t do this if you modify the CoreUI. In past we faced some problems with persons who tried to sell CoreUI based templates.
-
-## Support CoreUI Development
-
-CoreUI is an MIT licensed open source project and completely free to use. However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing. You can support development by donating on [PayPal](https://www.paypal.me/holeczek), buying [CoreUI Pro Version](https://coreui.io/pro) or buying one of our [premium admin templates](https://genesisui.com/?support=1).
-
-As of now I am exploring the possibility of working on CoreUI fulltime - if you are a business that is building core products using CoreUI, I am also open to conversations regarding custom sponsorship / consulting arrangements. Get in touch on [Twitter](https://twitter.com/lukaszholeczek).
+- [Creative Tim](https://creative-tim.com/?ref=sudl-readme)
+- [UPDIVISION](https://updivision.com)
